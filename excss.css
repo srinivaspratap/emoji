@@ -1,0 +1,223 @@
+
+body{
+    background-image: radial-gradient(rgb(61, 147, 150),rgb(103, 203, 153));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+#circle{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 300px 0px 0px 600px;
+    background-color: yellow;
+    filter: drop-shadow(-10px -10px 90px yellow);
+    
+    position: relative;
+}
+#leye{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 55px 0px 0px 35px;
+    position: absolute;
+}
+#reye{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 55px 0px 0px 105px;
+    position: absolute;
+}
+#lpupil{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    margin: 15px 0px 0px 15px;
+}
+#rpupil{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    margin: 15px 0px 0px 15px;
+}
+#drop1{
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    margin: 15px 0px 0px 15px;
+    filter: drop-shadow(-10px -10px 90px white);
+}
+#drop3{
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    margin: 8px 0px 0px 13px;
+    filter: drop-shadow(-10px -10px 90px white);
+}
+#drop2{
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    margin: 15px 0px 0px 15px;
+    filter: drop-shadow(-10px -10px 90px white);
+}
+#drop4{
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    margin: 8px 0px 0px 13px;
+    filter: drop-shadow(-10px -10px 90px white);
+}
+#mouth{
+    height: 35px;
+    width: 70px;
+    background-color: rgb(114, 94, 4);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    position: absolute;
+    border-color: black;
+    border-bottom-left-radius: 170px;
+    border-bottom-right-radius: 170px;
+    margin: 135px 0px 0px 61px;
+}
+#teeth{
+    height: 20px;
+    width: 50px;
+    background-color: white;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
+    position: absolute;
+    border-bottom-left-radius: 900px;
+    border-bottom-right-radius: 900px;
+    margin: 8px 0px 0px 10px;
+}
+#cheek1{
+    height: 20px;
+    width: 20px;
+    background-color: pink;
+    position: absolute;
+    filter: drop-shadow(-1000px -1000px 90px pink);
+    border-radius: 50%;
+    margin: 110px 0px 0px 20px;
+}
+#cheek2{
+    height: 20px;
+    width: 20px;
+    background-color: pink;
+    position: absolute;
+    filter: drop-shadow(-10px -10px 90px pink);
+    border-radius: 50%;
+    margin: 110px 0px 0px 150px;
+}
+#tongue{
+    height: 20px;
+    width: 40px;
+    background-color: red;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
+    position: absolute;
+    border-bottom-left-radius: 900px;
+    border-bottom-right-radius: 900px;
+    margin: 8px 0px 0px 5px;
+}
+#lbrow{
+    position: absolute;
+  top: 20%;
+  left: 15%;
+  width: 30%;
+  height: 20%;
+  border-radius: 50%;
+  border-top: 4px solid black;
+  
+}
+#rbrow{
+    position: absolute;
+  top: 20%;
+  left: 50%;
+  width: 30%;
+  height: 20%;
+  border-radius: 50%;
+  border-top: 4px solid black;
+  
+}
+#circle:hover{
+    background-color: blueviolet;
+    
+    #leye{
+        background-color: black;
+    }
+    #reye{
+        background-color: black;
+    }
+    #drop1,#drop2,#drop3,#drop4{
+        background-color: transparent;
+    }
+    #lpupil{
+        background-color: red;
+     
+    margin: 15px 0px 0px 25px;
+
+    }
+    #rpupil{
+        background-color: rgb(5, 56, 5);
+        margin: 15px 0px 0px 0px;
+    }
+    #tongue{
+        height: 50px;
+        width: 40px;
+        background-color: red;
+        border-top-left-radius: 1px;
+        border-top-right-radius: 1px;
+        position: absolute;
+        border-bottom-left-radius: 900px;
+        border-bottom-right-radius: 900px;
+        margin: 8px 0px 0px 20px;
+    }
+    #cheek1{
+        background-color: transparent;
+    }
+    #cheek2{
+        background-color: transparent;
+    }
+    #lbrow{
+        width: 30%;
+  height: 10%;
+  transform: rotate(20deg);
+    }
+    #rbrow{
+        width: 30%;
+  height: 10%;
+  transform: rotate(-20deg);
+    }
+    #mouth{
+        width: 100px;
+        margin: 135px 0px 0px 46px;
+    }
+    #teeth{
+        width: 80px;
+    }
+    body{
+        background-image: radial-gradient(black,rgb(103, 203, 153));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+    
+}
+
